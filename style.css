@@ -1,0 +1,548 @@
+#navbar1{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: aqua;
+    border:1px solid aqua;
+    height: 13vh;
+    z-index:4;
+}
+#navbar1 span,button,div{
+    height:11vh;
+}
+#location{
+    z-index:4;
+    height:10vh;
+    width:22rem;
+    padding: -10px;
+    text-align: left;
+    margin-left: 0px;
+    text-indent: -1px;
+    background-color: aqua;
+    border:2px solid aqua;
+    margin-top: -2px;
+    word-break:keep-all
+}
+#locbtn{
+    border: 2px solid aqua;
+    background-color: aqua;
+    margin-top:5px;
+}
+#locbtn small{
+    text-indent: -7px;
+    font-size: small;
+}
+#locbtn:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#logo{
+    margin-left: 5px;
+    background-color: aqua;
+    border:2px solid aqua;
+}
+#logo:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+/* #sbar{
+    width: 80vw;
+    height: 7vh;
+    border: 2px solid red;
+} */
+#all{
+    width:5vw;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:rgb(212, 212, 212);
+    color:black;
+}
+#all:hover{
+    background-color: rgb(211, 194, 194);
+}
+#search{
+    width:35vw;
+}
+#slogo{
+    width:4vw;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px solid black;
+    background-color: rgb(255, 125, 78);
+}
+#slogo:hover{
+    background-color: rgb(255, 102, 0);
+}
+.sbe{
+    height: 8vh;
+    margin-top: 10px;
+    margin-left:5px;
+}
+#search{
+    border:1px solid rgb(255, 255, 255);
+}
+#sbe:focus{
+        border:3px solid orange;
+}
+#lan{
+    margin-left: -100px;
+    background-color: aqua;
+    border:2px solid aqua;
+    color: black;
+}
+/* #lan:hover{
+    border: 2px solid black;
+} */
+#lan1{
+   border:2px solid aqua;
+}
+#lan1:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#signin{
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 11vw;
+    background-color: aqua;
+    border:1px solid aqua;
+    color: black;
+}
+#signin:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#orders{
+    margin-right: 5px;
+    width:13vw;
+    background-color: aqua;
+    border:2px solid aqua
+}
+#orders:hover{
+    border:2px solid black;
+    border-radius: 4px;
+}
+#cart{
+    margin-right: 20px;
+    width: auto;
+    background-color: aqua;
+    border:2px solid #00ffff;
+}
+#cart:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#signbtn{
+    background-color: orange;
+    border: 2px solid orange;
+    position: relative;
+    left: 120px; 
+    width:14vw;
+    height:5vh;
+    text-align: center;
+    border-radius: 4px;
+}
+#signbtn:hover{
+    text-decoration: underline;
+}
+#newc{
+    text-align: center;
+}
+#signmenu{
+    width:35vw;
+    height:80vh;
+}
+ #listacc{
+     display: flex; 
+}
+/* #lists li{
+    border-right: 1px solid black;
+} */
+#accounts{
+    float: right;
+    margin-top: 0px;
+    height:64vh
+}
+#accounts li{
+    border-left: 1px solid black; 
+}
+#lists a:hover{
+     color: orange;
+     text-decoration:orange;
+     text-decoration: underline orange;
+     background-color: white;
+}
+#lists h2:hover{
+    background-color: white;
+}
+#accounts a:hover{
+    color: orange;
+     text-decoration: underline orange;
+     background-color: white;
+}
+#accounts h2:hover{
+    background-color: white;
+}
+/*     navbar 2 styles      */
+#navbar2{
+    height:8vh;
+    font-size:15px;
+    z-index: 3;
+    position:absolute;
+    top: 80px;
+    background-color: salmon;
+    margin-top: 0px;
+    width:100vw;
+    /* border-top: 3px solid white; */
+} 
+#navbar2 button{
+    height: 7vh;
+    margin-top: -50px;
+    justify-self:normal;
+    background-color: salmon;
+    border: 1px solid salmon;
+    color: white;
+}
+#navbar2 button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 3;
+    border-radius: 4px;
+}
+#navbar2 nav button{
+   margin-top: 0px;
+   background-color: aqua;
+}
+#navdiv2{
+    height: 9vh;
+    background-color: salmon;
+    margin-top: -10px;
+    z-index: 3;
+}
+#prime{
+    margin-top: 40px;
+}
+#prime ul{
+    margin-top: -52px;
+}
+#innercarousel{
+    width: 100vw;
+    height: 80vh;
+    z-index: 1;
+    box-shadow:15px currentColor;
+    border-bottom: currentColor;
+}
+#prv{
+    margin-top: 130px;
+    float: left;
+}
+#nex{
+    margin-top: 130px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+#carouselm{
+    position: absolute;
+    box-shadow:15px ;
+    width: 100vw;
+    height: 40vh;
+    z-index: 1;
+}
+#carouselm img{
+    height: 675px;
+    box-shadow:15px currentColor;
+    border-bottom: 4px groove violet;
+}
+#offers{
+    z-index:2;
+    background-color: transparent;
+    box-shadow: inset;
+    margin-top: 370px;
+    display: grid;
+    position:relative;
+    justify-content: space-evenly;   
+    grid-template-columns: 300px 300px 300px 300px;
+    height:140vh;
+}
+#offers h3{
+    padding: 10px;
+}
+body{
+    background-color: rgb(218, 217, 217);
+    height: 250vh;
+}
+#tv{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#tv h3{
+    margin-left: 10px;
+}
+#led{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+#headphones{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#blu{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#menstyle{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#men{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#amzbrands{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#brands{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#household{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#house1{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#appliances{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#house2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#appliance{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#autoaccess{
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height:76vh;
+    margin-bottom: 20px;
+}
+#accessories{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#deals{
+    background-color: white;
+    height: 65vh;
+    width: 1300px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    top: 60px;
+}
+#dealsimg{
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+    background-color: white;
+    height:55vh;
+}
+#dealsimg img{
+    background-color: gray;
+}
+#dealsimg p{
+   color: red;
+}
+#dealsimg b{
+    background-color: red;
+    color: white;
+}
+#deals figure{
+    margin-left: 20px;
+}
+#deals span{
+    display: flex;
+}
+#dp2{
+    margin-top: -10px;
+}
+#a1{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#lastsecondbar{
+    color: white;
+    margin-top: -120px;
+    display: flex;
+    z-index: 0;
+    justify-content:space-evenly;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right:100px;
+    height: 80vh;
+    width:100vw;
+    background-color: rgb(49, 49, 83);
+}
+#about{
+    background-color: rgb(49, 49, 83);
+    height: 60vh;
+    padding-right: 10px;
+}
+#contact{
+    background-color: rgb(49, 49, 83);
+    height: 60vh;
+    padding-right:10px;
+}
+#help{
+    background-color: rgb(49, 49, 83);
+    height: 60vh;
+    width:13vw
+}
+#makem{
+    background-color: rgb(49, 49, 83);
+    height: 60vh;
+    padding-right: 10px;
+}
+#backtotop{
+    background-color: coral;
+    background-color:rgb(68, 68, 121);
+    text-align: center;
+    color: white;
+    margin-top: -40px;
+}
+#backtotop:hover{
+    background-color:rgb(90, 90, 133);
+}
+#backtotop p{
+    padding-top: 8px;
+}
+#lastsecondbar p:hover{
+      text-decoration: underline white;
+}
+#logoandlang{
+    margin-top: 370px;
+    z-index: 3;
+    width: 100vw;
+    height: 13vh;
+    border-top: 1px groove white;
+    background-color: rgb(49, 49, 83);
+    display: flex;
+    justify-content: space-evenly;
+    top: -450px;
+    position: relative;
+    right:0px;
+}
+#logoandlang img{
+    background-color: rgb(49, 49, 83);
+    border-radius: 100%;
+    margin-left: -30px;
+    margin-right: 0px;
+    height:60px;
+    width:100px;
+    margin-top: 8px;
+}
+#logoandlang select{
+   margin-left: 0px;
+   margin-top: 15px;
+   margin-right : 170px;
+   height: 7vh;
+}
+#countries{
+    z-index: 3;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(49, 49, 83);
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: -450px;
+}
+#us{
+    display: block;
+    color: white;
+    background-color: rgb(49, 49, 83);
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    top: -420px;
+    z-index:3;
+}
+#lastbar{
+    color: white;
+    font-size:12px;
+    display: grid;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 60px;
+    grid-template-columns:300px 300px 300px 300px ;
+    z-index: 3;
+    height: 49vh;
+    top:-430px;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(0, 15, 56);
+}
+#privacy{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 650px;
+}
+#privacy p{
+    padding-right: 30px;
+    font-size: 12px;
+    text-wrap: nowrap;
+}
+#copyrights{
+    height:5vh;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-wrap: nowrap;
+    display: block;
+}
+#prime2{
+    margin-top: 0px;
+}
